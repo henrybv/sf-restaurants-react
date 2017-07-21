@@ -12,7 +12,7 @@ module.exports = function(config) {
     ],
 
     preprocessors: {
-      // add webpack as preprocessor
+      // add webpack as preprocessor;
       'tests.webpack.js': ['webpack', 'sourcemap'],
     },
 
